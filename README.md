@@ -118,17 +118,3 @@ npm start
 - Backend: http://localhost:5000
 - Health check: http://localhost:5000/api/health
 
-## Security and Repository Hygiene
-
-- Secrets are excluded via `.gitignore` (`.env`, logs, generated files, local DB data)
-- `node_modules` and build artifacts are not committed
-- Test key scripts and local runtime files are ignored
-
-## Notes
-
-- `POST /api/courtroom/argue` is deprecated in current controller logic. Use `POST /api/courtroom/qa-grid`.
-- For production deployment, move to managed secrets, stricter CORS policy, and proper environment separation.
-
-## License
-
-This project is currently unlicensed. Add a `LICENSE` file before public reuse if needed.
