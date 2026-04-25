@@ -1,0 +1,9 @@
+﻿{
+  "name": "nyay-ai-court-root",
+  "version": "1.0.0",
+  "description": "Syllabus aligned full stack project (React + Node + MongoDB)",
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "start": "start-nyayai.bat"
+  }
+}

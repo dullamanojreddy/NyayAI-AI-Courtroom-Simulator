@@ -1,0 +1,6 @@
+[
+  {"ruleId":"RULE-001","conditions":["caseType == CONSUMER_DISPUTE"],"schemeId":"Consumer Helpline 1800-11-4000","priority":1},
+  {"ruleId":"RULE-002","conditions":["caseType == CYBER_CRIME"],"schemeId":"Cyber Crime Portal","priority":1},
+  {"ruleId":"RULE-003","conditions":["category in [SC,ST,Women,BPL]"],"schemeId":"NALSA Legal Aid","priority":2},
+  {"ruleId":"RULE-004","conditions":["caseType == DOMESTIC_VIOLENCE"],"schemeId":"National Commission for Women Complaints","priority":2}
+]

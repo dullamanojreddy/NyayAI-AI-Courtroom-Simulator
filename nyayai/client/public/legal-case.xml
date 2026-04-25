@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE case SYSTEM "legal-case.dtd">
+<case>
+  <title>Sample Civil Dispute</title>
+  <description>Tenant filed complaint for withheld security deposit.</description>
+  <verdict>Pending</verdict>
+  <createdAt>2026-03-24T00:00:00Z</createdAt>
+</case>

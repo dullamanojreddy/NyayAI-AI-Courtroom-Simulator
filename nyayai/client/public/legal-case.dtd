@@ -1,0 +1,5 @@
+<!ELEMENT case (title,description,verdict,createdAt)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT verdict (#PCDATA)>
+<!ELEMENT createdAt (#PCDATA)>
